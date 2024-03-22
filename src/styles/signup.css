@@ -1,0 +1,56 @@
+.signup-form-box {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #fff;
+  padding: 9px;
+  border-radius: 3px;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bird-img-box-signup {
+  text-align: center;
+}
+.signup-to-twitter {
+  font-weight: 900;
+  font-size: 22px;
+  font-family: "Roboto", Arial;
+}
+a {
+  color: #1da1f2 !important;
+  text-decoration: none;
+}
+.birth-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.birth-box p {
+  color: grey;
+}
+.month-day-year {
+  display: flex;
+  justify-content: space-between;
+}
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 30%;
+}
+option {
+  background-color: #fff;
+  color: #333;
+  height: 30px;
+}
+select:focus {
+  outline: none;
+}
+.bird-img-box-signup img {
+  height: 30px;
+  width: 30px;
+}

@@ -1,0 +1,41 @@
+.login-form-box {
+  /* border: 3px solid red; */
+  min-width: 370px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 9px;
+  background: #fff;
+  border-radius: 2px;
+}
+.login-to-twitter {
+  font-weight: 900;
+  font-size: 30px;
+  font-family: "Roboto", Arial;
+}
+
+.links- {
+  display: flex;
+  justify-content: space-between;
+}
+.links- a {
+  color: #1da1f2 !important;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+@media (max-width: 390px) {
+  .login-form-box {
+    min-width: 100%;
+  }
+  .login-to-twitter {
+    font-size: 24px;
+  }
+  .links- a {
+    font-size: 14px;
+  }
+}

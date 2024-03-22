@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.app {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inputs-all {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 2px;
+  outline: 1px solid rgb(186, 182, 182);
+  padding-left: 9px !important;
+  font-size: 17px;
+}
+
+.all-btn {
+  border-radius: 30px;
+  background: #1da1f2;
+  height: 50px;
+  width: 100%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  font-size: 19px;
+}
+
+.all-btn:hover {
+  background: #36acf5;
+  cursor: pointer;
+}
